@@ -1,9 +1,11 @@
 # LoRa-Localization
 
-For future research purposes RSSI dataset obtained from the measurement campaigns. Transparent dataset of measured data - RSSI values.
+Our repository offers real data for LoRa technology in the 2.4 GHz ISM Band. The values were measured using the iM828A radio module. For future research purposes RSSI dataset obtained from the measurement campaigns. 
+
 In the case of using a dataset, please cite the article: 
 
 #### [On the RSSI-based Indoor Localization Employing LoRa in the 2.4 GHz ISM Band](https://www.radioeng.cz/fulltexts/2022/22_01_0135_0143.pdf)
+
 
 ###### Citation in LaTeX:
 ```
@@ -18,6 +20,13 @@ In the case of using a dataset, please cite the article:
 	doi = {10.13164/RE.2022.0135},
 	url = {https://www.radioeng.cz/fulltexts/2022/22_01_0135_0143.pdf} }
 ```
+## Organization
+The dataset consists of three sections: 
+- [Corridor](https://github.com/xsimka/LoRa-Localization/tree/Main/Corridor)
+- [Hall](https://github.com/xsimka/LoRa-Localization/tree/Main/Hall)
+- [Locker room](https://github.com/xsimka/LoRa-Localization/tree/Main/Locker%20room)
+
+corresponding to the different environments in which the measurement was made. These sections also contain folders for different LoRa configurations. Each root folder in this repository consists of log files for different positions ("Px") in the environment.
 
 ## Acknowledgments
 This work was supported by the BUT (Brno University of Technology) project number FEKT-S-20-6325.
